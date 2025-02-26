@@ -13,7 +13,7 @@ export class HomeComponent  implements OnInit {
 
   displayedColumns = ['Categoria', 'Prodotto', 'Qta', 'Perc']
 
-  valStr:String="http://192.168.1.254/json/dettagli/test/"
+  valStr:String="https://newdatasystem.myftp.biz/json/dettagli/test/"
   valStrDue:String="https://newdatasystem.myftp.biz/json/dettagli/test/"
   constructor(private api:HttpClient, private api2:HttpClient) {
     this.api.get(this.valStr+"home.php").subscribe(

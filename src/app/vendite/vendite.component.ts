@@ -60,7 +60,7 @@ export class VenditeComponent implements OnInit {
   serverLink!:any
   permessi!:any
   constructor(private api:HttpClient, private and:HttpClient, private mese:HttpClient, private ora:HttpClient, private sizehttp:HttpClient, private dochttp:HttpClient) {
-    this.serverLink = "http://192.168.1.254/json/dettagli/test/"
+    this.serverLink = "https://newdatasystem.myftp.biz/json/dettagli/test/"
     this.permessi = String(sessionStorage.getItem('Tipo'))
   }
 
