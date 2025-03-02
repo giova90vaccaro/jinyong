@@ -11,7 +11,7 @@ export class HomeComponent  implements OnInit {
   incasso:any;
   dataSource!:any
 
-  displayedColumns = ['Categoria', 'Prodotto', 'Qta', 'Perc']
+  displayedColumns = ['Categoria', 'Prodotto',  'Valore','Qta']
 
   valStr:String="https://newdatasystem.myftp.biz/json/dettagli/test/"
   valStrDue:String="https://newdatasystem.myftp.biz/json/dettagli/test/"
